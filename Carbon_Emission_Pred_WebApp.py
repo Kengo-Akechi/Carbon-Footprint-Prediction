@@ -21,7 +21,7 @@ def predict_emission(input_data):
     return prediction
 
 def main():
-    st.title("Carbon Emission Prediction Web App")
+    st.title("Carbon Footprint Prediction Web App")
     
     Relative_carbon_intensity = st.number_input("Relative carbon intensity (tonnes CO2 / $1M USD revenue)")                                                  
     Total_financed_emissions_scope_1_2 = st.number_input("Total financed emissions scope 1 + 2 (tCO2e)")                          
