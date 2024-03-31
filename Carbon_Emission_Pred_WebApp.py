@@ -1,9 +1,16 @@
+import os
 import numpy as np
 import pickle
 import streamlit as st
 
+# Get the current working directory
+base_dir = os.getcwd()
+
+# Define the relative path to the trained model
+model_path = os.path.join(base_dir, 'trained_model.sav')
+
 # Loading the saved model
-loaded_model = pickle.load(open('C:/Users/hp/Desktop/Recent/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open(model_path, 'rb'))
 
 # Creating a function to predict the carbon emission
 def predict_emission(input_data):
