@@ -1,7 +1,7 @@
 # 🌍 Carbon Footprint Prediction Project
 
 ## Overview
-This repository contains code and resources for building a regression model to predict carbon footprint based on given features. The project aims to demonstrate the implementation of machine learning techniques in environmental impact assessment.
+This repository contains code and resources for building an ML model to predict carbon footprint based on given features and metrics of an ESG Fund. The project aims to demonstrate the implementation of machine learning techniques in environmental impact assessment.
 
 ## 📋 Requirements
 - Python 3.x
